@@ -2,8 +2,8 @@ import spotipy as sp
 import spotipy.util as sputil
 import pandas as pd
 
-CLIENT_ID = "c5c68c3313a746518d5d50ab26da5729"
-CLIENT_SECRET = "8e8129ecb3574a6aa8240f1cd321d0c0"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 token = sputil.oauth2.SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 cache_token = token.get_access_token()
